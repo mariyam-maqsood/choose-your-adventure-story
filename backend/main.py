@@ -1,9 +1,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
+import google.generativeai as genai
 from core.config import settings
 from routers import story, job
 from db.database import create_tables
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 create_tables()
 
