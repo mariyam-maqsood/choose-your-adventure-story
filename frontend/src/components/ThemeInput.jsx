@@ -18,7 +18,7 @@ function ThemeInput({ onSubmit }) {
   return (
     <div className="theme-input-container">
       <h2>Generate Your Adventure</h2>
-      <p>Enter a theme for your interaction story</p>
+      <p>Enter a theme for your interactive story</p>
 
       <form onSubmit={handleSubmit}>
         <div className="input-group">
@@ -26,7 +26,7 @@ function ThemeInput({ onSubmit }) {
             type="text"
             value={theme}
             onChange={(e) => setTheme(e.target.value)}
-            placeholder="Enter a theme (e.g. pirates, space..   )"
+            placeholder="Enter a theme (e.g. Pirates, Space, Treasure hunt..   )"
             className={error ? "error" : ""}
           />
           {error && <p className="error-text">{error}</p>}
