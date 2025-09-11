@@ -1,1 +1,1 @@
-export const API_BASE_URL="/api"
+export const API_BASE_URL="/choreo-apis/choose-your-adventure-sto/backend/v1/api"
