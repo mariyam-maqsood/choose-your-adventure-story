@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 # from core.config import settings
 
 # from langchain_openai import ChatOpenAI
-from langchain.chat_models import ChatGoogleGenerativeAI
+from langchain_community.chat_models import ChatGoogleGenerativeAI
 # from langchain_google_genai import ChatGoogleGenerativeAI #its working fine on local but not on choreo
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers import PydanticOutputParser
