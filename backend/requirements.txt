@@ -5,5 +5,4 @@ pydantic-settings
 langchain
 psycopg2-binary
 google-generativeai
-langchain-google-generativeai
 python-dotenv
