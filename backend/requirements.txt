@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 sqlalchemy
 pydantic-settings
-langchain
+langchain>=0.1.0
 psycopg2-binary
-google-generativeai
+google-generativeai>=0.8.5
 python-dotenv
